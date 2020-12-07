@@ -8,7 +8,7 @@
 import XCTest
 import EssentialFeed
 
-class EssentialFeedAPIEndToEndTests: XCTestCase {
+final class EssentialFeedAPIEndToEndTests: XCTestCase {
 
   func test_endToEndTestServer_matchesFixedTestAccountData() {
     switch getFeedResult() {
