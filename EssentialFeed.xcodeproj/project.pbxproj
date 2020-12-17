@@ -117,7 +117,6 @@
 		AC86D6962547EEAF00F85BE8 /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
-				AC0242AE257A0969009C5CDA /* Helpers */,
 				ACD40EC225429E4B00D7F9C6 /* LoadFeedFromRemoteUseCaseTests.swift */,
 			);
 			path = "Feed API";
@@ -168,6 +167,7 @@
 		ACEAF2BA253E991400C4DA5E /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
+				AC0242AE257A0969009C5CDA /* Helpers */,
 				AC8059C5258B024000531371 /* Feed Cache */,
 				AC86D6962547EEAF00F85BE8 /* Feed API */,
 				ACEAF2BD253E991400C4DA5E /* Info.plist */,
