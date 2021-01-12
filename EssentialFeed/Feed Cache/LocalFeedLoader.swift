@@ -26,11 +26,12 @@ private final class FeedCachePolicy {
 public final class LocalFeedLoader {
   
   private let store: FeedStore
-  private let calendar = Calendar(identifier: .gregorian)
+  private let currentDate: () -> Date
   private let cachePolicy: FeedCachePolicy
   
   public init(store: FeedStore, currentDate: @escaping () -> Date) {
     self.store = store
+    self.currentDate = currentDate
     self.cachePolicy = FeedCachePolicy(currentDate: currentDate)
   }
   
