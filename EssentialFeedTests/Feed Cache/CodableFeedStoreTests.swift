@@ -206,14 +206,14 @@ class CodableFeedStoreTests: XCTestCase {
   
   // MARK: - Helpers
   
-  func makeSUT(storeURL: URL? = nil, file: StaticString = #filePath, line: UInt = #line) -> CodableFeedStore {
+  func makeSUT(storeURL: URL? = nil, file: StaticString = #filePath, line: UInt = #line) -> FeedStore {
     let sut = CodableFeedStore(storeURL: storeURL ?? testSpecificStoreURL())
     trackForMemoryLeaks(sut, file: file, line: line)
     return sut
   }
   
   @discardableResult
-  private func insert(_ cache: (feed: [LocalFeedImage], timestamp: Date), to sut: CodableFeedStore) -> Error? {
+  private func insert(_ cache: (feed: [LocalFeedImage], timestamp: Date), to sut: FeedStore) -> Error? {
     let exp = expectation(description: "Wait for cache insertion")
     var insetionError: Error?
     
@@ -225,12 +225,12 @@ class CodableFeedStoreTests: XCTestCase {
     return insetionError
   }
   
-  private func expect(_ sut: CodableFeedStore, toRetrieveTwice expectedResult: RetrieveCacheFeedResult, file: StaticString = #file, line: UInt = #line) {
+  private func expect(_ sut: FeedStore, toRetrieveTwice expectedResult: RetrieveCacheFeedResult, file: StaticString = #file, line: UInt = #line) {
     expect(sut, toRetrieve: expectedResult)
     expect(sut, toRetrieve: expectedResult)
   }
   
-  private func expect(_ sut: CodableFeedStore, toRetrieve expectedResult: RetrieveCacheFeedResult, file: StaticString = #file, line: UInt = #line) {
+  private func expect(_ sut: FeedStore, toRetrieve expectedResult: RetrieveCacheFeedResult, file: StaticString = #file, line: UInt = #line) {
     
     let exp = expectation(description: "Wait for cache retrieval")
     
@@ -267,7 +267,7 @@ class CodableFeedStoreTests: XCTestCase {
     FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first!.appendingPathComponent("\(type(of: self)).store")
   }
   
-  private func deleteCache(from sut: CodableFeedStore) -> Error? {
+  private func deleteCache(from sut: FeedStore) -> Error? {
     let exp = expectation(description: "Wait for cache deletion")
     var deletionError: Error?
     sut.deleteCachedFeed { receivedDeletionError in
