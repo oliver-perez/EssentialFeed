@@ -183,6 +183,10 @@ class FeedViewControllerTests: XCTestCase {
       loadedImageURLs.append(url)
     }
     
+    func cancelImageDataLoad(from url: URL) {
+      cancelledImageURLs.append(url)
+    }
+    
   }
 
 }
