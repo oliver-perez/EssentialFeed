@@ -9,7 +9,7 @@
         <!--Feed View Controller-->
         <scene sceneID="exw-Zj-xvo">
             <objects>
-                <tableViewController id="sGA-PD-nTN" customClass="FeedViewController" customModule="Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="sGA-PD-nTN" customClass="FeedViewController" customModule="EssentialFeediOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="geK-qb-Mym">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="580" id="A4X-mP-OxD" customClass="FeedImageCell" customModule="Prototype" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="580" id="A4X-mP-OxD" customClass="FeedImageCell" customModule="EssentialFeediOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44" width="414" height="580"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A4X-mP-OxD" id="a7B-Iz-Ks1">
@@ -77,6 +77,9 @@ Location</string>
                                                             <state key="normal" title="⟲">
                                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             </state>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="A4X-mP-OxD" eventType="touchUpInside" id="dnp-Qc-KVj"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -118,6 +121,14 @@ Location</string>
                                         <constraint firstAttribute="trailingMargin" secondItem="3rV-04-Cjt" secondAttribute="trailing" id="xKM-EM-e0H"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="rkg-B8-zJz" id="q39-EO-O8m"/>
+                                    <outlet property="feedImageContainer" destination="3ZW-Wb-lUE" id="1xC-zj-CCN"/>
+                                    <outlet property="feedImageRetryButton" destination="V5d-Se-LZt" id="bmd-0A-1MO"/>
+                                    <outlet property="feedImageView" destination="T3q-pS-OXs" id="TaP-Ez-4m8"/>
+                                    <outlet property="locationContainer" destination="zAA-cg-kK7" id="Mqk-aZ-yQ5"/>
+                                    <outlet property="locationLabel" destination="5UF-9D-jfk" id="hiq-hs-Dqs"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
