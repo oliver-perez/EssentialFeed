@@ -149,6 +149,7 @@
 		AC85481825D794FB009DE44B /* FeedViewControllerTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Localization.swift"; sourceTree = "<group>"; };
 		AC85483925D796DC009DE44B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		AC85483F25D798F2009DE44B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
+		AC85484425D79946009DE44B /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		AC86D68C2547D57800F85BE8 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		AC86D6902547DB1900F85BE8 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		AC86D69C2550C24800F85BE8 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
@@ -641,6 +642,7 @@
 				en,
 				Base,
 				"pt-BR",
+				el,
 			);
 			mainGroup = ACEAF2A3253E991300C4DA5E;
 			productRefGroup = ACEAF2AE253E991300C4DA5E /* Products */;
@@ -818,6 +820,7 @@
 			children = (
 				AC85483925D796DC009DE44B /* en */,
 				AC85483F25D798F2009DE44B /* pt-BR */,
+				AC85484425D79946009DE44B /* el */,
 			);
 			name = Feed.strings;
 			sourceTree = "<group>";
