@@ -14,6 +14,7 @@
 		AC0242CB257DACAC009C5CDA /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0242AF257A0992009C5CDA /* XCTestCase+MemoryLeakTracking.swift */; };
 		AC28CDD825C7213C00F123F8 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC28CDCF25C7213B00F123F8 /* EssentialFeediOS.framework */; };
 		AC485C1D25E35A84001BF401 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC485C1C25E35A84001BF401 /* FeedPresenterTests.swift */; };
+		AC485C2F25E74B09001BF401 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC485C2E25E74B09001BF401 /* ErrorView.swift */; };
 		AC4D83DC25AD696C00CFF6F9 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D83DB25AD696C00CFF6F9 /* FeedCachePolicy.swift */; };
 		AC4D83E125B36E0D00CFF6F9 /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D83E025B36E0D00CFF6F9 /* CodableFeedStoreTests.swift */; };
 		AC4D83E625B7C56200CFF6F9 /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D83E525B7C56200CFF6F9 /* CodableFeedStore.swift */; };
@@ -134,6 +135,7 @@
 		AC28CDD725C7213C00F123F8 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC28CDDE25C7213C00F123F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC485C1C25E35A84001BF401 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
+		AC485C2E25E74B09001BF401 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		AC4D83DB25AD696C00CFF6F9 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		AC4D83E025B36E0D00CFF6F9 /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 		AC4D83E525B7C56200CFF6F9 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
@@ -408,6 +410,7 @@
 				ACAAE93125D4BC9C00C1CEB4 /* Feed.xcassets */,
 				AC85480525D6127E009DE44B /* UITableView+Dequeueing.swift */,
 				AC85480B25D61362009DE44B /* UIImageView+Animations.swift */,
+				AC485C2E25E74B09001BF401 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -744,6 +747,7 @@
 			files = (
 				ACAAE90625D2127600C1CEB4 /* FeedPresenter.swift in Sources */,
 				ACB7248825CE4CCA00A7BD8B /* FeedImageDataLoader.swift in Sources */,
+				AC485C2F25E74B09001BF401 /* ErrorView.swift in Sources */,
 				ACAAE91C25D380D300C1CEB4 /* FeedViewModel.swift in Sources */,
 				AC85480625D6127E009DE44B /* UITableView+Dequeueing.swift in Sources */,
 				ACAAE91625D380A700C1CEB4 /* FeedLoadingViewModel.swift in Sources */,
