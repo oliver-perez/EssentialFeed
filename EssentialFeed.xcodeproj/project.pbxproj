@@ -17,6 +17,7 @@
 		AC485C2F25E74B09001BF401 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC485C2E25E74B09001BF401 /* ErrorView.swift */; };
 		AC485C3625E74DB1001BF401 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC485C3525E74DB1001BF401 /* FeedErrorViewModel.swift */; };
 		AC485C4025E74E01001BF401 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC485C3F25E74E01001BF401 /* UIRefreshControl+Helpers.swift */; };
+		AC485C6125EA1179001BF401 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC485C4D25EA109B001BF401 /* Feed.strings */; };
 		AC4D83DC25AD696C00CFF6F9 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D83DB25AD696C00CFF6F9 /* FeedCachePolicy.swift */; };
 		AC4D83E125B36E0D00CFF6F9 /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D83E025B36E0D00CFF6F9 /* CodableFeedStoreTests.swift */; };
 		AC4D83E625B7C56200CFF6F9 /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D83E525B7C56200CFF6F9 /* CodableFeedStore.swift */; };
@@ -140,6 +141,9 @@
 		AC485C2E25E74B09001BF401 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		AC485C3525E74DB1001BF401 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
 		AC485C3F25E74E01001BF401 /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
+		AC485C4C25EA109B001BF401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
+		AC485C5225EA10B3001BF401 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
+		AC485C5325EA10B4001BF401 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		AC4D83DB25AD696C00CFF6F9 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		AC4D83E025B36E0D00CFF6F9 /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 		AC4D83E525B7C56200CFF6F9 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
@@ -292,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				AC485C1C25E35A84001BF401 /* FeedPresenterTests.swift */,
+				AC485C4D25EA109B001BF401 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -740,6 +745,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC485C6125EA1179001BF401 /* Feed.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,6 +877,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AC485C4D25EA109B001BF401 /* Feed.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC485C4C25EA109B001BF401 /* en */,
+				AC485C5225EA10B3001BF401 /* el */,
+				AC485C5325EA10B4001BF401 /* pt-BR */,
+			);
+			name = Feed.strings;
+			sourceTree = "<group>";
+		};
 		AC85483A25D796DC009DE44B /* Feed.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
