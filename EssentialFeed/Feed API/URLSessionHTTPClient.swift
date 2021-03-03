@@ -1,16 +1,9 @@
-//
-//  URLSessionHTTPClient.swift
-//  EssentialFeed
-//
-//  Created by Oliver Jordy Pérez Escamilla on 05/12/20.
-//
-
 import Foundation
 
 public final class URLSessionHTTPClient: HTTPClient {
   private let session: URLSession
   
-  public init(session: URLSession = .shared) {
+  public init(session: URLSession) {
     self.session = session
   }
   
