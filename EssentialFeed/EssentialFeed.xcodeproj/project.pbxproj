@@ -96,6 +96,7 @@
 		AC5153DB25F340A0004FB92E /* FeedImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5153DA25F340A0004FB92E /* FeedImageDataStore.swift */; };
 		AC5153E325F3442A004FB92E /* LocalFeedImageDataLoader .swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5153E225F3442A004FB92E /* LocalFeedImageDataLoader .swift */; };
 		AC5153EB25F34729004FB92E /* FeedImageDataStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5153EA25F34729004FB92E /* FeedImageDataStoreSpy.swift */; };
+		AC5153F325F347FE004FB92E /* CacheFeedImageDataUseCaseTests .swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5153F225F347FE004FB92E /* CacheFeedImageDataUseCaseTests .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +224,7 @@
 		AC5153DA25F340A0004FB92E /* FeedImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStore.swift; sourceTree = "<group>"; };
 		AC5153E225F3442A004FB92E /* LocalFeedImageDataLoader .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalFeedImageDataLoader .swift"; sourceTree = "<group>"; };
 		AC5153EA25F34729004FB92E /* FeedImageDataStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStoreSpy.swift; sourceTree = "<group>"; };
+		AC5153F225F347FE004FB92E /* CacheFeedImageDataUseCaseTests .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CacheFeedImageDataUseCaseTests .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,6 +459,7 @@
 				08285AEE228BF7E3000A8987 /* CoreDataFeedStoreTests.swift */,
 				08C4E983233E037200D939F8 /* LocalFeedImageDataLoaderTests.swift */,
 				AC5153EA25F34729004FB92E /* FeedImageDataStoreSpy.swift */,
+				AC5153F225F347FE004FB92E /* CacheFeedImageDataUseCaseTests .swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -882,6 +885,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				081C0DB122491E1200AC754E /* FeedCacheTestHelpers.swift in Sources */,
+				AC5153F325F347FE004FB92E /* CacheFeedImageDataUseCaseTests .swift in Sources */,
 				08805A19233A9F8600509F19 /* URLProtocolStub.swift in Sources */,
 				081C0DAF22491A2400AC754E /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				087148AC232BDF6900D6BE1A /* FeedPresenterTests.swift in Sources */,
