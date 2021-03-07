@@ -18,7 +18,6 @@
 		ACEE73EC25F48DA600CB6C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEE73EB25F48DA600CB6C45 /* Assets.xcassets */; };
 		ACEE73EF25F48DA600CB6C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE73ED25F48DA600CB6C45 /* LaunchScreen.storyboard */; };
 		ACEE73FA25F48DA600CB6C45 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73F925F48DA600CB6C45 /* EssentialAppTests.swift */; };
-		ACEE740525F48DA600CB6C45 /* EssentialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE740425F48DA600CB6C45 /* EssentialAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +67,6 @@
 		ACEE73F925F48DA600CB6C45 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 		ACEE73FB25F48DA600CB6C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACEE740025F48DA600CB6C45 /* EssentialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACEE740425F48DA600CB6C45 /* EssentialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITests.swift; sourceTree = "<group>"; };
-		ACEE740625F48DA600CB6C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +110,6 @@
 			children = (
 				ACEE73E125F48DA500CB6C45 /* EssentialApp */,
 				ACEE73F825F48DA600CB6C45 /* EssentialAppTests */,
-				ACEE740325F48DA600CB6C45 /* EssentialAppUITests */,
 				ACEE73E025F48DA500CB6C45 /* Products */,
 				ACB74B1D25F4921900B45425 /* Frameworks */,
 			);
@@ -150,15 +146,6 @@
 				ACEE73FB25F48DA600CB6C45 /* Info.plist */,
 			);
 			path = EssentialAppTests;
-			sourceTree = "<group>";
-		};
-		ACEE740325F48DA600CB6C45 /* EssentialAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ACEE740425F48DA600CB6C45 /* EssentialAppUITests.swift */,
-				ACEE740625F48DA600CB6C45 /* Info.plist */,
-			);
-			path = EssentialAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEE740525F48DA600CB6C45 /* EssentialAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
