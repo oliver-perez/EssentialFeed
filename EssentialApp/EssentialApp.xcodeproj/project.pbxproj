@@ -12,6 +12,7 @@
 		ACB74B2225F4921900B45425 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB74B1F25F4921900B45425 /* EssentialFeediOS.framework */; };
 		ACB74B2325F4921900B45425 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACB74B1F25F4921900B45425 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ACB74B5125F56ABB00B45425 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74B5025F56ABB00B45425 /* FeedLoaderWithFallbackCompositeTests.swift */; };
+		ACB74B6225F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74B6125F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift */; };
 		ACEE73E325F48DA500CB6C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73E225F48DA500CB6C45 /* AppDelegate.swift */; };
 		ACEE73E525F48DA500CB6C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73E425F48DA500CB6C45 /* SceneDelegate.swift */; };
 		ACEE73E725F48DA500CB6C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73E625F48DA500CB6C45 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		ACB74B1E25F4921900B45425 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB74B1F25F4921900B45425 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB74B5025F56ABB00B45425 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
+		ACB74B6125F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedLoaderWithFallbackComposite .swift"; sourceTree = "<group>"; };
 		ACEE73DF25F48DA500CB6C45 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEE73E225F48DA500CB6C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEE73E425F48DA500CB6C45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		ACEE73E125F48DA500CB6C45 /* EssentialApp */ = {
 			isa = PBXGroup;
 			children = (
+				ACB74B6125F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift */,
 				ACEE73E225F48DA500CB6C45 /* AppDelegate.swift */,
 				ACEE73E425F48DA500CB6C45 /* SceneDelegate.swift */,
 				ACEE73E625F48DA500CB6C45 /* ViewController.swift */,
@@ -239,6 +242,7 @@
 				ACEE73E725F48DA500CB6C45 /* ViewController.swift in Sources */,
 				ACEE73E325F48DA500CB6C45 /* AppDelegate.swift in Sources */,
 				ACEE73E525F48DA500CB6C45 /* SceneDelegate.swift in Sources */,
+				ACB74B6225F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
