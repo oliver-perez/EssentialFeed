@@ -14,6 +14,7 @@
 		ACB74B5125F56ABB00B45425 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74B5025F56ABB00B45425 /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		ACB74B6225F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74B6125F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift */; };
 		ACB74B7225F56C4C00B45425 /* FeedImageDataLoaderWithFallbackCompositeTests .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74B7125F56C4C00B45425 /* FeedImageDataLoaderWithFallbackCompositeTests .swift */; };
+		ACB74B8325F56FCC00B45425 /* FeedImageDataLoaderWithFallbackComposite .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74B8225F56FCC00B45425 /* FeedImageDataLoaderWithFallbackComposite .swift */; };
 		ACEE73E325F48DA500CB6C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73E225F48DA500CB6C45 /* AppDelegate.swift */; };
 		ACEE73E525F48DA500CB6C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73E425F48DA500CB6C45 /* SceneDelegate.swift */; };
 		ACEE73E725F48DA500CB6C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73E625F48DA500CB6C45 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		ACB74B5025F56ABB00B45425 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		ACB74B6125F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedLoaderWithFallbackComposite .swift"; sourceTree = "<group>"; };
 		ACB74B7125F56C4C00B45425 /* FeedImageDataLoaderWithFallbackCompositeTests .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageDataLoaderWithFallbackCompositeTests .swift"; sourceTree = "<group>"; };
+		ACB74B8225F56FCC00B45425 /* FeedImageDataLoaderWithFallbackComposite .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageDataLoaderWithFallbackComposite .swift"; sourceTree = "<group>"; };
 		ACEE73DF25F48DA500CB6C45 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEE73E225F48DA500CB6C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEE73E425F48DA500CB6C45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		ACEE73E125F48DA500CB6C45 /* EssentialApp */ = {
 			isa = PBXGroup;
 			children = (
+				ACB74B8225F56FCC00B45425 /* FeedImageDataLoaderWithFallbackComposite .swift */,
 				ACB74B6125F56BED00B45425 /* FeedLoaderWithFallbackComposite .swift */,
 				ACEE73E225F48DA500CB6C45 /* AppDelegate.swift */,
 				ACEE73E425F48DA500CB6C45 /* SceneDelegate.swift */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB74B8325F56FCC00B45425 /* FeedImageDataLoaderWithFallbackComposite .swift in Sources */,
 				ACEE73E725F48DA500CB6C45 /* ViewController.swift in Sources */,
 				ACEE73E325F48DA500CB6C45 /* AppDelegate.swift in Sources */,
 				ACEE73E525F48DA500CB6C45 /* SceneDelegate.swift in Sources */,
