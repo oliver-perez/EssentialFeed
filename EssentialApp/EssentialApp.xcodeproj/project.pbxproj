@@ -25,7 +25,6 @@
 		ACEE73EA25F48DA500CB6C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE73E825F48DA500CB6C45 /* Main.storyboard */; };
 		ACEE73EC25F48DA600CB6C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEE73EB25F48DA600CB6C45 /* Assets.xcassets */; };
 		ACEE73EF25F48DA600CB6C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE73ED25F48DA600CB6C45 /* LaunchScreen.storyboard */; };
-		ACEE73FA25F48DA600CB6C45 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE73F925F48DA600CB6C45 /* EssentialAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +72,6 @@
 		ACEE73EE25F48DA600CB6C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACEE73F025F48DA600CB6C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACEE73F525F48DA600CB6C45 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACEE73F925F48DA600CB6C45 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 		ACEE73FB25F48DA600CB6C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,7 +155,6 @@
 				ACB74B9125F5701500B45425 /* Helpers */,
 				ACB74B7125F56C4C00B45425 /* FeedImageDataLoaderWithFallbackCompositeTests .swift */,
 				ACB74B5025F56ABB00B45425 /* FeedLoaderWithFallbackCompositeTests.swift */,
-				ACEE73F925F48DA600CB6C45 /* EssentialAppTests.swift */,
 				ACB74BBE25F7369900B45425 /* FeedLoaderCacheDecorator.swift */,
 				ACEE73FB25F48DA600CB6C45 /* Info.plist */,
 			);
@@ -283,7 +280,6 @@
 				ACB74BA725F5707400B45425 /* SharedTestHelpers.swift in Sources */,
 				ACB74BBF25F7369A00B45425 /* FeedLoaderCacheDecorator.swift in Sources */,
 				ACB74B7225F56C4C00B45425 /* FeedImageDataLoaderWithFallbackCompositeTests .swift in Sources */,
-				ACEE73FA25F48DA600CB6C45 /* EssentialAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
