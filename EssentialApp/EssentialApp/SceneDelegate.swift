@@ -14,7 +14,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       .defaultDirectoryURL()
       .appendingPathComponent("feed-store.sqlite")
 
-  
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     guard let _ = (scene as? UIWindowScene) else { return }
     
@@ -42,7 +41,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   }
   
   func makeRemoteClient() -> HTTPClient {
-    
-    return URLSessionHTTPClient(session: URLSession(configuration: .ephemeral))
+    URLSessionHTTPClient(session: URLSession(configuration: .ephemeral))
   }
 }
