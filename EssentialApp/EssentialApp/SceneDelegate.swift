@@ -21,10 +21,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     try! CoreDataFeedStore(storeURL: localStoreURL)
   }()
   
+  private lazy var localFeedLoader: LocalFeedLoader = {
+    LocalFeedLoader(store: store, currentDate: Date.init)
+  }()
+  
   convenience init(httpClient: HTTPClient, store: FeedStore & FeedImageDataStore) {
     self.init()
     self.httpClient = httpClient
     self.store = store
+  }
+  
+  func sceneWillResignActive(_ scene: UIScene) {
+    localFeedLoader.validateCache { _ in }
   }
   
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -39,7 +47,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     let remoteFeedLoader = RemoteFeedLoader(url: remoteURL, client: httpClient)
     let remoteImageLoader = RemoteFeedImageDataLoader(client: httpClient)
     
-    let localFeedLoader = LocalFeedLoader(store: store, currentDate: Date.init)
     let localImageLoader = LocalFeedImageDataLoader(store: store)
     
     window?.rootViewController = UINavigationController(
