@@ -88,6 +88,7 @@
 		08F8822D236499B200CAEE16 /* FeedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8822C236499B200CAEE16 /* FeedCache.swift */; };
 		ACB74C5D25FB153200B45425 /* FeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74C5C25FB153200B45425 /* FeedSnapshotTests.swift */; };
 		ACB74C6625FB177400B45425 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74C6525FB177400B45425 /* UIImage+TestHelpers.swift */; };
+		ACB74C7425FB182F00B45425 /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74C7325FB182F00B45425 /* UITableView+HeaderSizing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +209,7 @@
 		08FC5AA922D5F47900148E12 /* FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoader.swift; sourceTree = "<group>"; };
 		ACB74C5C25FB153200B45425 /* FeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSnapshotTests.swift; sourceTree = "<group>"; };
 		ACB74C6525FB177400B45425 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
+		ACB74C7325FB182F00B45425 /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -473,6 +475,7 @@
 				0822D0F423058078004B3345 /* UITableView+Dequeueing.swift */,
 				0822D0F6230581D2004B3345 /* UIImageView+Animations.swift */,
 				08A3F2BA232BA64700127C15 /* UIRefreshControl+Helpers.swift */,
+				ACB74C7325FB182F00B45425 /* UITableView+HeaderSizing.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -898,6 +901,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB74C7425FB182F00B45425 /* UITableView+HeaderSizing.swift in Sources */,
 				08A3F2B2232AA1C200127C15 /* ErrorView.swift in Sources */,
 				08A3F2BB232BA64700127C15 /* UIRefreshControl+Helpers.swift in Sources */,
 				08B5EB5022CE328100FE8683 /* UIView+Shimmering.swift in Sources */,
