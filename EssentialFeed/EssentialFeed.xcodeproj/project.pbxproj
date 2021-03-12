@@ -89,6 +89,7 @@
 		ACB74C5D25FB153200B45425 /* FeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74C5C25FB153200B45425 /* FeedSnapshotTests.swift */; };
 		ACB74C6625FB177400B45425 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74C6525FB177400B45425 /* UIImage+TestHelpers.swift */; };
 		ACB74C7425FB182F00B45425 /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74C7325FB182F00B45425 /* UITableView+HeaderSizing.swift */; };
+		ACB74C7C25FB1C7700B45425 /* UIViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB74C7B25FB1C7700B45425 /* UIViewController+Snapshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +211,7 @@
 		ACB74C5C25FB153200B45425 /* FeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSnapshotTests.swift; sourceTree = "<group>"; };
 		ACB74C6525FB177400B45425 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		ACB74C7325FB182F00B45425 /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
+		ACB74C7B25FB1C7700B45425 /* UIViewController+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Snapshot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -565,6 +567,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB74C6525FB177400B45425 /* UIImage+TestHelpers.swift */,
+				ACB74C7B25FB1C7700B45425 /* UIViewController+Snapshot.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -919,6 +922,7 @@
 			files = (
 				08BB7EA922C138AC00F8B83C /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				ACB74C5D25FB153200B45425 /* FeedSnapshotTests.swift in Sources */,
+				ACB74C7C25FB1C7700B45425 /* UIViewController+Snapshot.swift in Sources */,
 				ACB74C6625FB177400B45425 /* UIImage+TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
